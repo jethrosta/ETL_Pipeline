@@ -5,14 +5,14 @@ from utils.transform import transform_to_DataFrame
 from utils.load import load_data
 
 # URL untuk scraping
-BASE_URL = 'https://fashion-studio.dicoding.dev/'
+BASE_URL = <Masukkan link untuk scrapping>
 
 # Database URL
-DB_URL = "postgresql+psycopg2://developer:supersecretpassword@localhost:5432/fashiondb"
+DB_URL = <Masukkan link DB dari postgreSQL>
 
 # Google Sheets Config
-GSHEET_ID = '1FTkvlwCWrMj_sgFm6b9QUIk5IFJArNfbRtXrTobGeV0'
-SHEET_NAME = 'Sheet1'
+GSHEET_ID = <masukkan link id google sheets>
+SHEET_NAME = <masukan nama sheets tab, bukan nama file spreadsheets>
 
 def main():
     """Proses utama ETL: Extract, Transform, Load"""
